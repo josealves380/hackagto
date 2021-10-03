@@ -1,0 +1,45 @@
+#page-auth {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+aside {
+    flex: 6;
+
+    img {
+        height: 96vh;
+        width: 100vh;
+    }
+}
+main {
+    flex: 6;  
+
+    
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 120px 250px;
+    align-items: center;
+
+    input {
+        width: 30vh;
+        padding: 16px;
+        font: 700 12px 'Montserrat', sans-serif;
+        border: none;
+        background: #fafafa;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    img {
+        height: 50px;
+        padding: 0px 90px;
+    }
+    h1 {
+        padding: 0px 70px;
+        margin-bottom: 29px;
+        font: 500 18px 'Montserrat', sans-serif;
+    }
+
+    
+}
